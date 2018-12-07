@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachineName": {
+            "value": "ifkhvm001"
+        },
+        "location": {
+            "value": "West Europe",
+        },
+        "virtualMachineSize": {
+            "value": "Standard_A2"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "adminUserName": {
+            "value": "localadmin"
+        },
+        "adminPassword": {
+            "value": "Innofactor18!!"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "ifkhdiagstorage001"
+        },
+        "networkInterfaceName": {
+            "value": "ifkhvm001-nic01"
+        },
+        "virtualNetworkName": {
+            "value": "ifkhtestvnet001"
+        },
+        "subnetName": {
+            "value": "server"
+        }
+    }
+  }
