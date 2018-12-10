@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "virtualMachineName": {
-            "value": "ifkhvm001"
+            "value": "ifkhvm01"
         },
         "location": {
-            "value": "West Europe",
+            "value": "West Europe"
         },
         "virtualMachineSize": {
             "value": "Standard_A2"
@@ -21,16 +21,19 @@
             "value": "Innofactor18!!"
         },
         "diagnosticsStorageAccountName": {
-            "value": "ifkhdiagstorage001"
+            "value": "ifkhtestdiagstorage01"
         },
         "networkInterfaceName": {
-            "value": "ifkhvm001-nic01"
+            "value": "ifkhvm01-nic01"
         },
         "virtualNetworkName": {
-            "value": "ifkhtestvnet001"
+            "value": "ifkhtestvnet01"
         },
         "subnetName": {
-            "value": "server"
+            "value": "ifkhtestsubnet01"
+        },
+        "workspaceName": {
+            "value": "ifkhtestla01"
         }
     }
   }
